@@ -1,0 +1,21 @@
+﻿spring:
+  profiles:
+    active: 
+    - dev
+---
+    
+spring:
+  profiles: dev
+  application:
+    name: springservicecloud-config-liangjianzhu-dev 
+---
+    
+spring:
+  profiles: test
+  application:
+    name: springservicecloud-config-liangjianzhu-test 
+
+    
+
+
+      
